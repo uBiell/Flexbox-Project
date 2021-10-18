@@ -1,0 +1,116 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+div img{
+    display: block;
+    width: 100%;
+}
+
+:root{
+    font-size: 10px;
+}
+
+.flex-container{
+    font-size: 1.6rem;
+    display: flex;
+    max-width: 99.2rem;
+    margin: auto;
+    width: 100%;
+}
+
+/* Header */
+header{
+    background-color: #122a57;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+header .list-items{
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    max-width: 26rem;
+    width: 100%;
+}
+
+.list-items li a{
+    color: white;
+}
+
+header .menu{
+    justify-content: space-between;
+}
+
+/* Apresentação */
+.apresentacao{
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao .texto-apresentacao{
+    min-height: 20rem;
+}
+
+.texto-apresentacao h1{
+    color: #122a57;
+    font-size: 4.8rem;
+    margin-bottom: 1rem;
+}
+
+.texto-apresentacao a{
+    background-color: #122a57;
+    color: white;
+    text-align: center;
+    border-radius: 3rem;
+    width: 22rem;
+    text-decoration: none;
+    display: inline-block;
+    height: 5.2rem;
+    line-height: 5rem;
+    margin: 1rem 0;
+}
+
+/* Quem Somos */
+#quem-somos{
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#quem-somos h2{
+    font-size: 3.2rem;
+    color: #122a57;
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+#quem-somos h2::before{
+    content: "";
+    height: 5rem;
+    width: .5rem;
+    margin-right: .5rem;
+    background-color: #122a57;
+    position: relative;
+}
+
+#quem-somos p{
+    margin-bottom: 1rem;
+    width: 90%;
+}
