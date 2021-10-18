@@ -64,6 +64,10 @@ header .menu{
     justify-content: space-between;
 }
 
+.apresentacao img{
+    min-width: 62.6rem;
+}
+
 .apresentacao .texto-apresentacao{
     min-height: 20rem;
 }
@@ -92,6 +96,7 @@ header .menu{
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 9.4rem;
 }
 
 #quem-somos h2{
@@ -113,4 +118,70 @@ header .menu{
 #quem-somos p{
     margin-bottom: 1rem;
     width: 90%;
+}
+
+#quem-somos img{
+    min-width: 51.4rem;
+}
+
+/* Serviços */
+.container-externo{
+    background-color: #122a57;
+    width: 100%;
+}
+
+#servicos{
+    flex-direction: column;
+    padding: 7.6rem 0 10.5rem 0;
+}
+
+#servicos div h2{
+    font-size: 4.8rem;
+    /* margin-top: 7.6rem; */
+    margin-bottom: 10.5rem;
+    color: white;
+
+}
+
+.service-list .item-service{
+    text-align: center;
+}
+
+.service-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-list img{
+    margin-bottom: 4.2rem;
+}
+
+.item-service a{
+    display: inline-block;
+    width: 22.5rem;
+    background-color: white;
+    border-radius: 3rem;
+    height: 5rem;
+    margin-top: 4.3rem;
+    line-height: 5rem;
+    text-align: center;
+    padding: .4rem 1rem;
+    color: #122a57;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.item-service p{
+    font-weight: 700;
+    color: white;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.item-service img{
+    width: 80%;
+    margin: auto;
+    
 }
